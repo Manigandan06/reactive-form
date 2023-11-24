@@ -1,0 +1,19 @@
+<div class="container">
+    <form [formGroup] = "reactiveForm" (ngSubmit)="onSubmit()">
+        <h1>Reactive Form</h1>
+        <label for="name">Username</label><br/>
+        <input type="text" class="detail" placeholder="enter your name.." formControlName="username"/><br/>
+        <label for="email">E-mail</label><br/>
+        <input type="email"  class="detail"placeholder="abc@gmail.com" formControlName="email"/><br/>
+        <label for="pass">Password</label><br/>
+        <input type="password"  class="detail" placeholder="******" formControlName="password"/><br/>
+        <label for="phone">Phone.No</label><br/>
+        <input type="tel"  class="detail" placeholder="phone no..." formControlName="phoneno"/><br/>
+        <label for="gender">Gender:</label>
+        <input type="radio"  value="male" placeholder="gender" formControlName="gender"/>Male
+        <input type="radio"  value="female" formControlName="gender"/>Female
+        <input type="radio"  value="others" formControlName="gender"/>Others
+        <input type="submit" value="Submit" id="button"/>
+        
+    </form>
+</div>

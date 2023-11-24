@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+form{
+    background-color: rgb(123, 231, 255);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+label{
+    font-size: 20px;
+}
+.detail{
+    margin-bottom: 10px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+#button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+}
+button:hover{
+    background-color: rgb(63, 57, 57);
+}
+.ng-invalid.ng-touched{
+    border:1px solid red;
+}
